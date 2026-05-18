@@ -1,0 +1,23 @@
+@model GLMS.Web.Models.Client
+
+<h2>Create Client</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Contact Details</label>
+        <input asp-for="ContactDetails" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Region</label>
+        <input asp-for="Region" class="form-control" />
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-success">Save</button>
+</form>

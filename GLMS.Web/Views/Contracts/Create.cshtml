@@ -1,0 +1,35 @@
+@model GLMS.Web.Models.Contract
+
+<h2>Create Contract</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Client</label>
+        <select asp-for="ClientId" asp-items="ViewBag.ClientId"></select>
+    </div>
+
+    <div>
+        <label>Start Date</label>
+        <input asp-for="StartDate" type="date" />
+    </div>
+
+    <div>
+        <label>End Date</label>
+        <input asp-for="EndDate" type="date" />
+    </div>
+
+    <div>
+        <label>Status</label>
+        <select asp-for="Status"
+                asp-items="Html.GetEnumSelectList<GLMS.Web.Models.ContractStatus>()">
+        </select>
+    </div>
+
+    <div>
+        <label>Service Level</label>
+        <input asp-for="ServiceLevel" />
+    </div>
+
+    <br />
+    <button type="submit">Save</button>
+</form>

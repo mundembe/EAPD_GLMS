@@ -1,0 +1,25 @@
+@model IEnumerable<GLMS.Web.Models.Contract>
+
+<h2>Contracts</h2>
+
+<a asp-action="Create" class="btn btn-primary">Create Contract</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Client</th>
+            <th>Status</th>
+            <th>Service Level</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var contract in Model)
+        {
+            <tr>
+                <td>@contract.ClientId</td>
+                <td>@contract.Status</td>
+                <td>@contract.ServiceLevel</td>
+            </tr>
+        }
+    </tbody>
+</table>
