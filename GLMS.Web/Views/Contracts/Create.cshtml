@@ -2,7 +2,7 @@
 
 <h2>Create Contract</h2>
 
-<form asp-action="Create" method="post">
+<form asp-action="Create" method="post" enctype="multipart/form-data">
     <div>
         <label>Client</label>
         <select asp-for="ClientId" asp-items="ViewBag.ClientId"></select>
@@ -20,14 +20,18 @@
 
     <div>
         <label>Status</label>
-        <select asp-for="Status"
-                asp-items="Html.GetEnumSelectList<GLMS.Web.Models.ContractStatus>()">
+        <select asp-for="Status" asp-items="Html.GetEnumSelectList<GLMS.Web.Models.ContractStatus>()">
         </select>
     </div>
 
     <div>
         <label>Service Level</label>
         <input asp-for="ServiceLevel" />
+    </div>
+
+    <div>
+        <label>Signed Agreement (PDF)</label>
+        <input type="file" name="signedAgreement" />
     </div>
 
     <br />

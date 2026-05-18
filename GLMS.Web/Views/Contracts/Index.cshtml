@@ -10,6 +10,7 @@
             <th>Client</th>
             <th>Status</th>
             <th>Service Level</th>
+            <th>Agreement</th>
         </tr>
     </thead>
     <tbody>
@@ -19,6 +20,14 @@
                 <td>@contract.ClientId</td>
                 <td>@contract.Status</td>
                 <td>@contract.ServiceLevel</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(contract.SignedAgreementPath))
+                    {
+                        <a asp-action="Download" asp-route-id="@contract.Id" class="btn btn-sm btn-success">
+                            Download PDF
+                        </a>
+                    }
+                </td>
             </tr>
         }
     </tbody>

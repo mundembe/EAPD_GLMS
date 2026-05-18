@@ -159,3 +159,4 @@ D:\MasimbaMundembe\Documents\RoseBank\EAPD7111\POE_Part_2\GLMS.Web\obj\Debug\net
 D:\MasimbaMundembe\Documents\RoseBank\EAPD7111\POE_Part_2\GLMS.Web\obj\Debug\net8.0\GLMS.Web.pdb
 D:\MasimbaMundembe\Documents\RoseBank\EAPD7111\POE_Part_2\GLMS.Web\obj\Debug\net8.0\GLMS.Web.genruntimeconfig.cache
 D:\MasimbaMundembe\Documents\RoseBank\EAPD7111\POE_Part_2\GLMS.Web\obj\Debug\net8.0\ref\GLMS.Web.dll
+D:\MasimbaMundembe\Documents\RoseBank\EAPD7111\POE_Part_2\GLMS.Web\obj\Debug\net8.0\GLMS.Web.sourcelink.json
