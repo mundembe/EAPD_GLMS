@@ -245,6 +245,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\MasimbaMundembe\\Documents\\RoseBank\\EAPD7111\\POE_Part_2\\GLMS.Web\\wwwroot\\uploads\\contracts\\bf27724f-9d28-4ed1-b6aa-623c6d91e1cb.pdf",
+      "PackagePath": "staticwebassets\\uploads\\contracts\\bf27724f-9d28-4ed1-b6aa-623c6d91e1cb.pdf"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GLMS.Web.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

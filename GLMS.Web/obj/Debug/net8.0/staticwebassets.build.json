@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zrghw/qU9K90U+5Z3NeqFsbcJ0sQG1Qm0S8xLRCcU3E=",
+  "Hash": "k1JgrkAgGER/zL0l1xapZr8JpDUba9lzQU1UIjMrpvA=",
   "Source": "GLMS.Web",
   "BasePath": "_content/GLMS.Web",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\MasimbaMundembe\\Documents\\RoseBank\\EAPD7111\\POE_Part_2\\GLMS.Web\\wwwroot\\uploads\\contracts\\bf27724f-9d28-4ed1-b6aa-623c6d91e1cb.pdf",
+      "SourceId": "GLMS.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MasimbaMundembe\\Documents\\RoseBank\\EAPD7111\\POE_Part_2\\GLMS.Web\\wwwroot\\",
+      "BasePath": "_content/GLMS.Web",
+      "RelativePath": "uploads/contracts/bf27724f-9d28-4ed1-b6aa-623c6d91e1cb.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\contracts\\bf27724f-9d28-4ed1-b6aa-623c6d91e1cb.pdf"
     }
   ]
 }
